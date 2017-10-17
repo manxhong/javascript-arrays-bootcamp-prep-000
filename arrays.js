@@ -27,8 +27,8 @@ function accessElementInArray(array, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  array = array.slice(1);
-  return array;
+  var arr = array.slice(1);
+  return arr;
 }
 
 var number = [1,2,3]

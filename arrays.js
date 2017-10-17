@@ -31,6 +31,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
 
-var number = [1,2,3]
-
-console.log(destructivelyRemoveElementFromBeginningOfArray(number));
+function removeElementFromBeginningOfArray(array){
+  return array.slice(1);
+}
